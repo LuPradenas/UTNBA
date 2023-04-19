@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(150deg,yellow 0%,red 25%);
+    box-shadow: 0 0 70px violet;
+    border-radius: 5px;
+}
+.square:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
